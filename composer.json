@@ -1,5 +1,5 @@
 {
-	"name": "davidcb/messages",
+	"name": "davidcb/laravel-messages",
 	"description": "Flash messages for Laravel",
 	"type": "library",
 	"license": "MIT",
@@ -19,10 +19,7 @@
 		"laravel": {
 			"providers": [
 				"Davidcb\\Messages\\MessagesServiceProvider"
-			]/*,
-			"aliases": {
-				"Messages": "Davidcb\\Messages\\Facade"
-			}*/
+			]
 		}
 	}
 }
