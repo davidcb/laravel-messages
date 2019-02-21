@@ -1,0 +1,28 @@
+{
+	"name": "davidcb/messages",
+	"description": "Flash messages for Laravel",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "David Couto",
+			"email": "davidcouto@gmail.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Davidcb\\Messages\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Davidcb\\Messages\\MessagesServiceProvider"
+			]/*,
+			"aliases": {
+				"Messages": "Davidcb\\Messages\\Facade"
+			}*/
+		}
+	}
+}
